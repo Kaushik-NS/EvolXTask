@@ -474,6 +474,7 @@
 -analyzer:"D:/6000.3.11f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/DiceRoller.cs"
 "Assets/Scripts/GameCalculator.cs"
+"Assets/Scripts/RotateUI.cs"
 -langversion:9.0
 /deterministic
 /optimize+

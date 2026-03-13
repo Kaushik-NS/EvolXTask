@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\GameCalculator.cs" />
     <Compile Include="Assets\Scripts\DiceRoller.cs" />
+    <Compile Include="Assets\Scripts\RotateUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Mad Scientist&apos;s Games\2D Kit - Fantasy Game Stuff\Sprites\Mace 1 (7 x 7 x 3 = 147 combinations)\lever 3x + head 7x + tip 7x.txt" />

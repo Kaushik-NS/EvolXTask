@@ -22,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GameCalculator.cs",
-              "DocumentMoniker": "D:\\EvolXTask\\Assets\\Scripts\\GameCalculator.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameCalculator.cs",
-              "ToolTip": "D:\\EvolXTask\\Assets\\Scripts\\GameCalculator.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameCalculator.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAcwFcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T12:12:22.473Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -45,7 +32,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\DiceRoller.cs",
               "ToolTip": "D:\\EvolXTask\\Assets\\Scripts\\DiceRoller.cs",
               "RelativeToolTip": "Assets\\Scripts\\DiceRoller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAYwF8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T12:04:05.422Z",
               "EditorCaption": ""
@@ -61,6 +48,19 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2026-03-13T11:43:31.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameCalculator.cs",
+              "DocumentMoniker": "D:\\EvolXTask\\Assets\\Scripts\\GameCalculator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameCalculator.cs",
+              "ToolTip": "D:\\EvolXTask\\Assets\\Scripts\\GameCalculator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameCalculator.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAYwD0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T13:47:07.871Z",
+              "EditorCaption": ""
             }
           ]
         }
