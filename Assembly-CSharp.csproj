@@ -66,6 +66,7 @@
     <None Include="Assets\Mad Scientist&apos;s Games\2D Kit - Fantasy Game Stuff\Sprites\Mace 2 (7 x 7 x 3 x 12 = 1764 combinations)\blade 7x + lever 3x + strapping 12x + tip 7x.txt" />
     <None Include="Assets\Mad Scientist&apos;s Games\2D Kit - Fantasy Game Stuff\Sprites\Bread 1 (2 combinations)\bread 2x.txt" />
     <None Include="Assets\Mad Scientist&apos;s Games\2D Kit - Fantasy Game Stuff\Sprites\Dagger 1 (7 x 7 x 12 = 588 combinations)\blade 7x + lever 7x + strapping 12x.txt" />
+    <None Include="Assets\Collection Dice set for role-playing games\Documentation\Readmy.txt" />
     <None Include="Assets\Mad Scientist&apos;s Games\2D Kit - Fantasy Game Stuff\Sprites\Poleaxe 1 (7 x 7 x 3 x 12 = 1764 combinations)\blade 7x + lever 3x + strapping 12x + tip 7x.txt" />
     <None Include="Assets\Mad Scientist&apos;s Games\2D Kit - Fantasy Game Stuff\Sprites\Book 1 (8 x 8 x 4 = 256 combinations)\bookmark 8x + (cover 8x + spine 8x) + paper 4x.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -156,6 +157,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\Mad Scientist&apos;s Games\2D Kit - Fantasy Game Stuff\Sprites\Potion 1 (2 x 4 x 21 x 11 = 1848 combinations)\(bottle 2x + glare 2x) + plug 4x + potion 21x + ring 11.txt" />
     <None Include="Assets\Mad Scientist&apos;s Games\2D Kit - Fantasy Game Stuff\Sprites\Mushroom 2 (11 combinations)\mushroom 11x.txt" />
+    <None Include="Assets\Dice_6\Documentation\Readmy.txt" />
     <None Include="Assets\Mad Scientist&apos;s Games\2D Kit - Fantasy Game Stuff\Sprites\Magic Staff 1 (8 x 3 x 8 = 192 combinations)\(crystal 8x + light 8x) + base 3x + bandage 8x.txt" />
   </ItemGroup>
   <ItemGroup>

@@ -11,14 +11,14 @@ public class GameCalculator : MonoBehaviour
     public TMP_InputField multiplierField;
     public TMP_InputField totalField;
 
+    public GameObject MainMenuPanel;
+    public GameObject GamePanel;
+    public GameObject RollButton;
+
     public Image totalHighlight;
 
     public Image cardAFrame;
     public Image cardBFrame;
-
-    public GameObject MainMenuPanel;
-
-
 
     public RawImage cardAImage;
     public RawImage cardBImage;
@@ -28,18 +28,19 @@ public class GameCalculator : MonoBehaviour
     public AudioSource ExitButtonSound;
     public AudioSource RGBframeSound;
 
-    int points = 0;     
-    int multiplier = 10;
-    int total = 0;
+    int points;
+    int multiplier;
+    int total;
 
     public void Roll()
     {
+        RollButton.SetActive(false);
         DiceRollSound.Play();
-        ClearFields();          // clear UI first
-        StartCoroutine(RollSequence());
+        ClearFields();
+        dice.RollDice();
     }
 
-    public void ClearFields()
+    void ClearFields()
     {
         pointsField.text = "";
         multiplierField.text = "";
@@ -52,31 +53,16 @@ public class GameCalculator : MonoBehaviour
         frame.SetActive(false);
     }
 
-
-    IEnumerator RollSequence()
-    {
-        yield return StartCoroutine(dice.RollDiceRoutine());
-
-        int result = dice.finalValue;
-
-        // Default values after roll
-        points = result;
-        multiplier = 10;
-
-        ApplySpiritCards(result);
-
-        total = points * multiplier;
-
-        UpdateUI();
-    }
-
     IEnumerator HighlightTotal()
     {
         totalHighlight.gameObject.SetActive(true);
 
         Color original = totalHighlight.color;
 
-        totalHighlight.color = Color.yellow;
+        Color c = Color.yellow;
+        c.a = 0.25f;
+        totalHighlight.color = c;
+
         totalHighlight.transform.localScale = Vector3.one * 1.2f;
 
         // stay visible for 2 seconds
@@ -86,22 +72,76 @@ public class GameCalculator : MonoBehaviour
         totalHighlight.transform.localScale = Vector3.one;
 
         totalHighlight.gameObject.SetActive(false);
+        RollButton.SetActive(true);
     }
 
-    IEnumerator RGBFrame(Image frame)
+    //IEnumerator RGBFrame(Image frame)
+    //{
+    //    RGBframeSound.Play();
+    //    while (frame.gameObject.activeSelf)
+    //    {
+    //        frame.color = Color.HSVToRGB(
+    //            Mathf.PingPong(Time.time * 0.5f, 1f),
+    //            1f,
+    //            1f
+    //        );
+
+    //        yield return null;
+    //    }
+    //}
+
+    //IEnumerator RGBFrame(Image frame)
+    //{
+    //    RGBframeSound.Play();
+
+    //    while (RGBframeSound.isPlaying)
+    //    {
+    //        frame.color = Color.HSVToRGB(
+    //            Mathf.PingPong(Time.time * 0.5f, 1f),
+    //            1f,
+    //            1f
+    //        );
+
+    //        yield return null;
+    //    }
+
+    //    frame.color = Color.white;
+    //}
+
+    IEnumerator RGBFrame(Image frame, RawImage image)
     {
         RGBframeSound.Play();
-        while (frame.gameObject.activeSelf)
+
+        RectTransform frameRect = frame.rectTransform;
+        RectTransform imageRect = image.rectTransform;
+
+        Vector3 frameOriginal = frameRect.localScale;
+        Vector3 imageOriginal = imageRect.localScale;
+
+        while (RGBframeSound.isPlaying)
         {
+            // RGB color animation
             frame.color = Color.HSVToRGB(
                 Mathf.PingPong(Time.time * 0.5f, 1f),
                 1f,
                 1f
             );
 
+            // pulse scale
+            float scale = 1f + Mathf.PingPong(Time.time * 2f, 0.25f);
+
+            frameRect.localScale = frameOriginal * scale;
+            imageRect.localScale = imageOriginal * scale;
+
             yield return null;
         }
+
+        // reset
+        frame.color = Color.white;
+        frameRect.localScale = frameOriginal;
+        imageRect.localScale = imageOriginal;
     }
+
 
 
     void ApplySpiritCards(int diceResult)
@@ -111,7 +151,7 @@ public class GameCalculator : MonoBehaviour
             multiplier = 2;
 
             cardAFrame.gameObject.SetActive(true);
-            StartCoroutine(RGBFrame(cardAFrame));
+            StartCoroutine(RGBFrame(cardAFrame, cardAImage));
 
             StartCoroutine(HideFrameAfterDelay(cardAFrame.gameObject, 2f));
         }
@@ -121,10 +161,29 @@ public class GameCalculator : MonoBehaviour
             points += 10;
 
             cardBFrame.gameObject.SetActive(true);
-            StartCoroutine(RGBFrame(cardBFrame));
+            StartCoroutine(RGBFrame(cardBFrame, cardBImage));
 
             StartCoroutine(HideFrameAfterDelay(cardBFrame.gameObject, 2f));
         }
+       
+    }
+
+    public void OnDiceRollFinished(int result)
+    {
+        points = result;
+        multiplier = 10;
+
+        if (result == 6)
+            multiplier = 2;
+
+        if (result == 3)
+            points += 10;
+
+        total = points * multiplier;
+
+        UpdateUI();
+        ApplySpiritCards(result);
+       
     }
 
     public void ResetCards()
@@ -147,6 +206,7 @@ public class GameCalculator : MonoBehaviour
             field.text = current.ToString();
 
             yield return new WaitForSeconds(0.03f);
+            
         }
 
         // trigger highlight only after final value
@@ -158,15 +218,21 @@ public class GameCalculator : MonoBehaviour
 
     void UpdateUI()
     {
+        //pointsField.text = points.ToString();
+        //multiplierField.text = multiplier.ToString();
+        //totalField.text = total.ToString();
+
+
         StartCoroutine(CountUp(pointsField, points));
         StartCoroutine(CountUp(multiplierField, multiplier));
         StartCoroutine(CountUp(totalField, total, true));
     }
 
-    public void StartGame()
+    public void PlayGame()
     {
         PlayButtonSound.Play();
         MainMenuPanel.SetActive(false);
+        GamePanel.SetActive(true);
     }
 
     public void ExitGame()
