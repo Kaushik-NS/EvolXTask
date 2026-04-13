@@ -1,6 +1,6 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/EvolXTask/Packages/manifest.json
+    m_FilePath: D:/RollTheDice/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -8,7 +8,7 @@ m_ProjectFiles:
       ticks: 639090139741359522
     m_Hash: 502978657
   m_LockFileStatus:
-    m_FilePath: D:/EvolXTask/Packages/packages-lock.json
+    m_FilePath: D:/RollTheDice/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -19,7 +19,7 @@ m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/EvolXTask/Packages
+m_ProjectPath: D:/RollTheDice/Packages
 m_EditorVersion: 6000.3.11f1 (3000ef702840)
 m_ResolvedPackages:
 - packageId: com.unity.2d.animation@13.0.4
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 13.0.4
   source: 1
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.2d.animation@7396d8477ca9
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.2d.animation@7396d8477ca9
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -316,7 +316,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.1
   source: 1
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7
   assetPath: Packages/com.unity.2d.aseprite
   name: com.unity.2d.aseprite
   displayName: 2D Aseprite Importer
@@ -493,7 +493,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 12.0.1
   source: 1
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.2d.psdimporter@9abe0f7cac7e
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.2d.psdimporter@9abe0f7cac7e
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -731,7 +731,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.2d.sprite@d14b9d497a24
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.2d.sprite@d14b9d497a24
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -822,7 +822,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 13.0.0
   source: 1
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.2d.spriteshape@0738bab11647
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.2d.spriteshape@0738bab11647
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -1066,7 +1066,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.2d.tilemap@f011712243ad
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.2d.tilemap@f011712243ad
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -1176,7 +1176,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 6.0.1
   source: 1
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.2d.tilemap.extras@3dde84bf3867
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.2d.tilemap.extras@3dde84bf3867
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -1362,7 +1362,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 1
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.2d.tooling@249995156768
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.2d.tooling@249995156768
   assetPath: Packages/com.unity.2d.tooling
   name: com.unity.2d.tooling
   displayName: 2D Tooling
@@ -1493,7 +1493,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.11.4
   source: 1
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.collab-proxy@a5329f833fa8
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.collab-proxy@a5329f833fa8
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -1687,7 +1687,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.39
   source: 1
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.ide.rider@4504839d03f7
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.ide.rider@4504839d03f7
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -1830,7 +1830,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.26
   source: 1
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -1959,7 +1959,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.19.0
   source: 1
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -2143,7 +2143,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -2250,7 +2250,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.3.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.render-pipelines.universal@e9f15c489688
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.render-pipelines.universal@e9f15c489688
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal Render Pipeline
@@ -2386,7 +2386,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -2487,7 +2487,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.11
   source: 1
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.timeline@bfd27f8016ff
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.timeline@bfd27f8016ff
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -2690,7 +2690,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.ugui@f17df9b1ab21
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.ugui@f17df9b1ab21
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: uGUI
@@ -2797,7 +2797,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.10
   source: 1
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.visualscripting@eb6004dcc707
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.visualscripting@eb6004dcc707
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -2940,7 +2940,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.accessibility
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -3028,7 +3028,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.adaptiveperformance
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.adaptiveperformance
   assetPath: Packages/com.unity.modules.adaptiveperformance
   name: com.unity.modules.adaptiveperformance
   displayName: Adaptive Performance
@@ -3122,7 +3122,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.ai
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -3210,7 +3210,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.androidjni
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -3297,7 +3297,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.animation
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -3385,7 +3385,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.assetbundle
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -3473,7 +3473,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.audio
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -3561,7 +3561,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.cloth
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -3653,7 +3653,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.director
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -3749,7 +3749,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.imageconversion
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -3837,7 +3837,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.imgui
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -3925,7 +3925,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.jsonserialize
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -4013,7 +4013,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.particlesystem
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -4101,7 +4101,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.physics
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -4189,7 +4189,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.physics2d
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -4277,7 +4277,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.screencapture
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -4369,7 +4369,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.terrain
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -4457,7 +4457,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.terrainphysics
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -4553,7 +4553,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.tilemap
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -4644,7 +4644,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.ui
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -4732,7 +4732,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.uielements
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -4840,7 +4840,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.umbra
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -4928,7 +4928,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.unityanalytics
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -5023,7 +5023,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.unitywebrequest
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -5111,7 +5111,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -5207,7 +5207,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.unitywebrequestaudio
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -5303,7 +5303,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.unitywebrequesttexture
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -5399,7 +5399,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.unitywebrequestwww
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -5511,7 +5511,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.vectorgraphics
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.vectorgraphics
   assetPath: Packages/com.unity.modules.vectorgraphics
   name: com.unity.modules.vectorgraphics
   displayName: Vector Graphics
@@ -5618,7 +5618,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.vehicles
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -5710,7 +5710,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.video
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -5810,7 +5810,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.vr
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -5913,7 +5913,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.wind
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -6001,7 +6001,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.xr
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -6101,7 +6101,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.subsystems
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -6193,7 +6193,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.modules.hierarchycore
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -6281,7 +6281,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.ext.nunit@d8c07649098d
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.ext.nunit@d8c07649098d
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -6372,7 +6372,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.3.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.render-pipelines.core@84bf82d10e47
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.render-pipelines.core@84bf82d10e47
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Scriptable Render Pipeline Core
@@ -6505,7 +6505,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.3.0
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.shadergraph@4eb612570652
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.shadergraph@4eb612570652
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -6630,7 +6630,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal Render Pipeline Config
@@ -6747,7 +6747,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 12.0.2
   source: 1
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.2d.common@800085e896ad
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.2d.common@800085e896ad
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -6955,7 +6955,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.3
   source: 1
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.mathematics@19a9377c4ffa
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.mathematics@19a9377c4ffa
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -7066,7 +7066,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.6.2
   source: 1
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.collections@aea9d3bd5e19
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.collections@aea9d3bd5e19
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -7267,7 +7267,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.4
   source: 1
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.searcher@d45a78918735
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.searcher@d45a78918735
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -7375,7 +7375,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.8.28
   source: 1
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.burst@07790c2d06d9
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.burst@07790c2d06d9
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -7623,7 +7623,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.6
   source: 1
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -7728,7 +7728,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.2.0
   source: 1
-  resolvedPath: D:\EvolXTask\Library\PackageCache\com.unity.test-framework.performance@0840f58e4562
+  resolvedPath: D:\RollTheDice\Library\PackageCache\com.unity.test-framework.performance@0840f58e4562
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API
